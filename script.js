@@ -1,4 +1,4 @@
-/* This is a simplified version of the game.
+      /* This is a simplified version of the game.
 The Computer ALWAYS picks ROCK.  
 Does the user's choose win,lose, or tie vs ROCK? */
 function play(user) {
@@ -12,5 +12,8 @@ function play(user) {
     if (user === 'scissors') {
         result = "lose";
     }
-    alert("Computer chose rock, you " + result + "!");
-}
+    var theMessage = "This Computer chose rock, you " + result + "!"
+    alert(theMessage);
+    say(theMessage);    
+
+  }
